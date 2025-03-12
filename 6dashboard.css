@@ -1,0 +1,86 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.highlight {
+    color: gold;
+}
+
+/* Tombol Waktu */
+.time-button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* List Antrian */
+.queue-list {
+    margin-top: 10px;
+}
+
+.queue-item {
+    width: 100%;
+    text-align: left;
+    background: #252525;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.queue-item:hover {
+    background: #333;
+}
+
+.highlighted {
+    background: gold;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 4px 10px rgba(255, 244, 244, 0.724);
+}
